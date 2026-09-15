@@ -3,12 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Primer Proyecto Claude</title>
+  <title>Marcio Flores Peña — Desarrollador en formación</title>
+  <meta name="description" content="Portfolio personal de Marcio Flores Peña, desarrollador en formación.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>¡Hola, mundo!</h1>
-  <p>Este es mi primer proyecto practicando consola, Git y Claude Code.</p>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">MFP</a>
+      <nav class="nav">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="top" class="hero container">
+      <p class="hero-eyebrow">Hola, soy</p>
+      <h1>Marcio Flores Peña</h1>
+      <p class="hero-role">Desarrollador en formación</p>
+      <p class="hero-text">
+        Estoy aprendiendo a programar practicando con consola, Git/GitHub y Claude Code.
+        Este sitio es mi primer proyecto: lo voy construyendo y mejorando a medida que aprendo.
+      </p>
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-secondary">Contactarme</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section container">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy un desarrollador en formación, enfocado en aprender las bases del desarrollo web:
+        HTML, CSS y JavaScript, junto con herramientas como la consola y Git para versionar
+        mi trabajo. Este proyecto es parte de mi práctica para ir mejorando de a poco.
+      </p>
+    </section>
+
+    <section id="habilidades" class="section container">
+      <h2>Habilidades</h2>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+        <li>Consola / Terminal</li>
+        <li>Claude Code</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="section container">
+      <h2>Proyectos</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Mi primer proyecto Claude</h3>
+          <p>Página de práctica para aprender consola, Git/GitHub y Claude Code. Este mismo sitio.</p>
+        </article>
+        <article class="project-card project-card-placeholder">
+          <h3>Próximo proyecto</h3>
+          <p>Acá va a aparecer mi próximo proyecto a medida que siga aprendiendo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section container">
+      <h2>Contacto</h2>
+      <p>¿Querés escribirme? Podés encontrarme por acá:</p>
+      <a href="mailto:bug4rcio@gmail.com" class="btn btn-primary">bug4rcio@gmail.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Marcio Flores Peña. Hecho practicando HTML, CSS y JS.</p>
+    </div>
+  </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>

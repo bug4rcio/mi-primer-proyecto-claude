@@ -20,4 +20,4 @@ Abrí `index.html` en tu navegador.
 ## Progreso
 
 - [x] Configuración inicial del repositorio
-- [ ] Primera funcionalidad
+- [x] Primera funcionalidad (portfolio personal con modo oscuro)
