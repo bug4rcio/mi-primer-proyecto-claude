@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marcio Flores Peña — Desarrollador en formación</title>
-  <meta name="description" content="Portfolio personal de Marcio Flores Peña, desarrollador en formación.">
+  <title>Marcio Flores Peña — Estudiante de Ingeniería de Sistemas e Informática</title>
+  <meta name="description" content="Portfolio personal de Marcio Flores Peña, estudiante de Ingeniería de Sistemas e Informática con experiencia en soporte técnico.">
+  <meta name="theme-color" content="#ffffff" id="theme-color-meta">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,11 +15,13 @@
       <a href="#top" class="logo">MFP</a>
       <nav class="nav">
         <a href="#sobre-mi">Sobre mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#formacion">Formación</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#proyectos">Proyectos</a>
         <a href="#contacto">Contacto</a>
       </nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema">🌙</button>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema"></button>
     </div>
   </header>
 
@@ -26,56 +29,172 @@
     <section id="top" class="hero container">
       <p class="hero-eyebrow">Hola, soy</p>
       <h1>Marcio Flores Peña</h1>
-      <p class="hero-role">Desarrollador en formación</p>
+      <p class="hero-role">Estudiante de Ingeniería de Sistemas e Informática</p>
       <p class="hero-text">
-        Estoy aprendiendo a programar practicando con consola, Git/GitHub y Claude Code.
-        Este sitio es mi primer proyecto: lo voy construyendo y mejorando a medida que aprendo.
+        Con experiencia en soporte técnico y ganas de seguir creciendo en desarrollo web.
+        Este sitio es también mi espacio de práctica con consola, Git/GitHub y Claude Code.
       </p>
-      <div class="hero-actions">
+      <div class="btn-row">
         <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
         <a href="#contacto" class="btn btn-secondary">Contactarme</a>
+        <a href="assets/CV-Marcio-Flores-Pena.pdf" class="btn btn-secondary" target="_blank" rel="noopener">Descargar CV</a>
       </div>
     </section>
 
     <section id="sobre-mi" class="section container">
+      <span class="section-eyebrow">Quién soy</span>
       <h2>Sobre mí</h2>
       <p>
-        Soy un desarrollador en formación, enfocado en aprender las bases del desarrollo web:
-        HTML, CSS y JavaScript, junto con herramientas como la consola y Git para versionar
-        mi trabajo. Este proyecto es parte de mi práctica para ir mejorando de a poco.
+        Soy estudiante de Ingeniería de Sistemas e Informática en la Universidad Tecnológica del
+        Perú, actualmente en el IX ciclo. Tengo experiencia en soporte técnico, tanto de forma
+        independiente como dentro de equipos de trabajo, resolviendo incidencias de hardware y
+        software y dando seguimiento a clientes. En paralelo, estoy afianzando mis bases de
+        desarrollo web —HTML, CSS y JavaScript— practicando con consola, Git y Claude Code.
+        Este sitio es parte de esa práctica.
       </p>
     </section>
 
+    <section id="experiencia" class="section container">
+      <span class="section-eyebrow">Dónde he trabajado</span>
+      <h2>Experiencia</h2>
+      <ul class="timeline-list">
+        <li class="timeline-item">
+          <span class="timeline-date">Jun 2024 — Actualidad</span>
+          <h3>Soporte Técnico Freelance</h3>
+          <p class="timeline-org">Independiente</p>
+          <p>Soporte técnico a clientes particulares y pequeñas empresas: diagnóstico,
+            mantenimiento y resolución de incidencias de hardware y software.</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-date">Sep 2025 — Dic 2025</span>
+          <h3>Practicante de Soporte Técnico</h3>
+          <p class="timeline-org">EJARAD TIC – Soluciones Informáticas E.I.R.L.</p>
+          <p>Asistencia en hardware y software, instalación y mantenimiento de sistemas, y
+            atención de incidencias reportadas por las distintas áreas de la empresa.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="formacion" class="section container">
+      <span class="section-eyebrow">Cómo me sigo formando</span>
+      <h2>Formación</h2>
+      <ul class="timeline-list">
+        <li class="timeline-item">
+          <span class="timeline-date">2022 — presente</span>
+          <h3>Ingeniería de Sistemas e Informática</h3>
+          <p class="timeline-org">Universidad Tecnológica del Perú · IX ciclo</p>
+        </li>
+      </ul>
+      <ul class="cert-list">
+        <li class="cert-badge">Introducción a la Ciberseguridad — Cisco</li>
+        <li class="cert-badge">Seguridad de Terminales — Cisco</li>
+        <li class="cert-badge">Defensa de la Red — Cisco</li>
+        <li class="cert-badge">Gestión de Amenazas Cibernéticas — Cisco</li>
+        <li class="cert-badge">Domina Python — UTP</li>
+        <li class="cert-badge">JavaScript Básico — Google Developer Student Clubs</li>
+      </ul>
+    </section>
+
     <section id="habilidades" class="section container">
+      <span class="section-eyebrow">Con qué trabajo</span>
       <h2>Habilidades</h2>
       <ul class="skills-list">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Git &amp; GitHub</li>
-        <li>Consola / Terminal</li>
-        <li>Claude Code</li>
+        <li>
+          <span class="skill-icon icon-html" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </span>
+          HTML5
+        </li>
+        <li>
+          <span class="skill-icon icon-css" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 22c-5.2 0-9.5-3.8-9.5-8.5C2.5 9 6 5 11 5c4.3 0 7.5 3 7.5 6.2 0 1.9-1.4 3.3-3.3 3.3h-2.5c-.7 0-1.3.6-1.3 1.3 0 .4.2.7.4.9.4.4.5.8.5 1.3 0 1-.9 1.9-2.4 1.9z"/><circle cx="7" cy="12" r="1"/><circle cx="9.5" cy="8.3" r="1"/><circle cx="14" cy="8.3" r="1"/><circle cx="16" cy="12" r="1"/></svg>
+          </span>
+          CSS3
+        </li>
+        <li>
+          <span class="skill-icon icon-js" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke="none"><polygon points="13 2 4 14 11 14 10 22 20 10 13 10 13 2"/></svg>
+          </span>
+          JavaScript
+        </li>
+        <li>
+          <span class="skill-icon icon-java" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M18 8h1a3 3 0 0 1 0 6h-1"/><path d="M3 8h15v6a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z"/><line x1="6.5" y1="2.5" x2="6.5" y2="4.5"/><line x1="10.5" y1="2.5" x2="10.5" y2="4.5"/><line x1="14.5" y1="2.5" x2="14.5" y2="4.5"/></svg>
+          </span>
+          Java
+        </li>
+        <li>
+          <span class="skill-icon icon-python" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M9 2v6L3 20a2 2 0 0 0 2 3h14a2 2 0 0 0 2-3L15 8V2"/><line x1="8" y1="2" x2="16" y2="2"/><line x1="7.5" y1="14.5" x2="16.5" y2="14.5"/></svg>
+          </span>
+          Python
+        </li>
+        <li>
+          <span class="skill-icon icon-php" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2.5" y="3" width="19" height="7" rx="1.5"/><rect x="2.5" y="14" width="19" height="7" rx="1.5"/><line x1="6" y1="6.5" x2="6.01" y2="6.5"/><line x1="6" y1="17.5" x2="6.01" y2="17.5"/></svg>
+          </span>
+          PHP
+        </li>
+        <li>
+          <span class="skill-icon icon-sql" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v13c0 1.7 3.6 3 8 3s8-1.3 8-3v-13"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+          </span>
+          SQL
+        </li>
+        <li>
+          <span class="skill-icon icon-git" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M18 8.5a9 9 0 0 1-9 9"/></svg>
+          </span>
+          Git &amp; GitHub
+        </li>
+        <li>
+          <span class="skill-icon icon-powerbi" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="6" y1="20" x2="6" y2="16"/><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/></svg>
+          </span>
+          Power BI
+        </li>
+        <li>
+          <span class="skill-icon icon-terminal" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+          </span>
+          Consola
+        </li>
+        <li>
+          <span class="skill-icon icon-claude" aria-hidden="true">
+            <svg viewBox="0 0 24 24" stroke="none"><path d="M12 3l1.4 4.1L17.5 8.5l-4.1 1.4L12 14l-1.4-4.1-4.1-1.4 4.1-1.4L12 3z"/><path d="M19 3.5v3"/><path d="M20.5 5h-3"/><path d="M6 16.5v2.5"/><path d="M7.2 17.8H4.8"/></svg>
+          </span>
+          Claude Code
+        </li>
       </ul>
     </section>
 
     <section id="proyectos" class="section container">
+      <span class="section-eyebrow">Lo que voy construyendo</span>
       <h2>Proyectos</h2>
       <div class="projects-grid">
         <article class="project-card">
+          <span class="project-badge">Activo</span>
           <h3>Mi primer proyecto Claude</h3>
           <p>Página de práctica para aprender consola, Git/GitHub y Claude Code. Este mismo sitio.</p>
         </article>
         <article class="project-card project-card-placeholder">
+          <span class="project-badge">Próximamente</span>
           <h3>Próximo proyecto</h3>
-          <p>Acá va a aparecer mi próximo proyecto a medida que siga aprendiendo.</p>
+          <p>Aquí va a aparecer mi próximo proyecto a medida que siga aprendiendo.</p>
         </article>
       </div>
     </section>
 
     <section id="contacto" class="section container">
+      <span class="section-eyebrow">Hablemos</span>
       <h2>Contacto</h2>
-      <p>¿Querés escribirme? Podés encontrarme por acá:</p>
-      <a href="mailto:bug4rcio@gmail.com" class="btn btn-primary">bug4rcio@gmail.com</a>
+      <div class="contact-card">
+        <p>¿Quieres escribirme? Puedes encontrarme por aquí:</p>
+        <div class="btn-row">
+          <a href="mailto:bug4rcio@gmail.com" class="btn btn-primary">bug4rcio@gmail.com</a>
+          <a href="https://linkedin.com/in/marcioalexander-florespe" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
     </section>
   </main>
 

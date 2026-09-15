@@ -15,7 +15,7 @@ Proyecto de práctica para aprender a usar la consola, Git/GitHub y Claude Code.
 
 ## Cómo verlo
 
-Abrí `index.html` en tu navegador.
+Abre `index.html` en tu navegador.
 
 ## Progreso
 
